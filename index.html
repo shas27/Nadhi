@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Interest Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="si-container">
+        <h1>Simple Interest Calculator</h1>
+        <div id="content">
+            <label for="amount">Amount</label>
+            <input type="text" id="amounttext" name="amount">
+            <br><br>
+            <label for="rate">Rate</label>
+            <input type="text" id="ratetext" name="rate">
+            <br><br>
+            <label for="years">No. of years</label>
+            <input type="text" id="yearsvalue" name="years">
+            <br><br>
+            <div id="button">
+                <input type="button" onclick="calc()" value="Calculate" id="calcButton">
+            </div>
+            <br>
+            <span id="res"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
