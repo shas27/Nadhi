@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: black;
+}
+
+#si-container {
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#si-container h1 {
+    margin-top: 10px;
+    font-size: 40px;
+    color: brown;
+    text-decoration: underline;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
